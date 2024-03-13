@@ -1,0 +1,48 @@
+.perfil-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Ajusta según tu preferencia */
+}
+
+.perfil-content {
+  display: flex;
+  align-items: center;
+  max-width: 600px; /* Ajusta según tu preferencia */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.perfil-image {
+  flex: 0 0 auto;
+}
+
+.perfil-image img {
+  width: 150px; /* Ajusta según tu preferencia */
+  height: auto;
+  border-radius: 50%;
+}
+
+.perfil-info {
+  flex: 1;
+  margin-left: 20px; /* Espacio entre la imagen y la información */
+}
+
+.buttons-container {
+  margin-top: 10px;
+}
+
+.buttons-container button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.buttons-container button:hover {
+  background-color: #0056b3;
+}
