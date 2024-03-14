@@ -39,23 +39,23 @@ function Header() {
 
   return (
     <div id="Header" className={isScrolled ? "scrolled" : ""}>
-      <button className="header-button start-button" onClick={scrollToTop}>
-        Inicio
-      </button>
-
-      <button
-        className="header-button"
-        onClick={() => scrollToSection("proyectos")}
-      >
-        Proyectos
-      </button>
-
-      <button
-        className="header-button"
-        onClick={() => scrollToSection("experiencia")}
-      >
-        Experiencia
-      </button>
+      <div className="Buttons">
+        <button className="header-button" onClick={scrollToTop}>
+          Inicio
+        </button>
+        <button
+          className="header-button"
+          onClick={() => scrollToSection("proyectos")}
+        >
+          Proyectos
+        </button>
+        <button
+          className="header-button"
+          onClick={() => scrollToSection("experiencia")}
+        >
+          Experiencia
+        </button>
+      </div>
     </div>
   );
 }
